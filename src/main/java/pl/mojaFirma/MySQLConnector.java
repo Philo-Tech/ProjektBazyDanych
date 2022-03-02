@@ -14,14 +14,14 @@ public class MySQLConnector {
 
     private Connection connection;
 
+    private MySQLConnector() {
+        dbConnectionSettings();
+    }
+
     private static MySQLConnector mySQLConnector = new MySQLConnector();
 
     public static MySQLConnector getInstance() {
         return mySQLConnector;
-    }
-
-    private MySQLConnector() {
-        dbConnectionSettings();
     }
 
     private void dbConnectionSettings() {

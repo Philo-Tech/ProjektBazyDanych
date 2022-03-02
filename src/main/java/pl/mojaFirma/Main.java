@@ -12,7 +12,7 @@ public class Main {
         try {
             Statement statement = mySQLConnector.getMySqlConnection().createStatement();
             statement.execute
-                    ("INSERT INTO book VALUES(0, 'Książka dodana z JDBC', 'Nowy autor', 50, '1900-01-01', 45);");
+                    ("INSERT INTO book VALUES(0, 'Książka dodana z JDBC', 'Nowy autor', 50, '1900-01-01', 45)");
         } catch (SQLException e) {
             e.printStackTrace();
         }
