@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class MySQLConnector {
 
     //Ustawienia danych dostepowych do bazy
-    private static final String SQL_LINK = "jdbc:mysql://127.0.0.1:3306/book";
+    private static final String SQL_LINK = "jdbc:mysql://127.0.0.1:3306/dbcontacts";
     private static final String SQL_USER = "root";
     private static final String SQL_PASS = "";
     private static final String SQL_CLASS = "com.mysql.jdbc.Driver";
